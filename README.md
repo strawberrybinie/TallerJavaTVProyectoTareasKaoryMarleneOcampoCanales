@@ -41,21 +41,3 @@ java -jar target/taskmanager-0.0.1-SNAPSHOT.jar
 ## Probar con Postman
 Se incluye un archivo `postman_collection.json` con las peticiones: primero autenticar en `/auth/login`, usar `Authorization: Bearer <token>` en las siguientes peticiones.
 
-## Qué agregué y por qué (explicación paso a paso)
-1. **pom.xml**: Dependencias necesarias para web, JPA, seguridad, JWT y MySQL.
-2. **application.properties**: Configuración de conexión a MySQL y JWT.
-3. **Entidades**: `Task`, `User`, `Role` — representan tablas en la BD.
-4. **Repositorios**: Interfaces `JpaRepository` para CRUD automático.
-5. **Servicios**: `TaskService` centraliza lógica de tareas.
-6. **Controladores**: `AuthController` para login + `TaskController` para endpoints CRUD.
-7. **Seguridad**: `JwtUtil`, `JwtFilter`, `SecurityConfig`, `UserDetailsServiceImpl` — autenticación y autorización por roles.
-8. **README**: instrucciones para ejecutar.
-9. **Postman**: colección con pruebas listadas (login, crear, listar, actualizar, eliminar).
-10. **ZIP**: proyecto empaquetado listo para descargar.
-
-## Observaciones y mejoras recomendadas
-- Asignar roles a usuarios al crear (en `CommandLineRunner`) para que `user` tenga `ROLE_USER` y `admin` tenga `ROLE_ADMIN`.
-- Manejo de excepciones más robusto y validaciones DTO con `@Valid`.
-- Tests unitarios/integración.
-- Usar H2 en pruebas locales para no depender de MySQL.
-
