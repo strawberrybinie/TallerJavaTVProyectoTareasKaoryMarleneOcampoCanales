@@ -1,0 +1,4 @@
+# Important
+After running, you may see users created but without roles assigned. To quickly assign roles:
+- Open the database and run updates to link user_roles, or modify CommandLineRunner in TaskManagerApplication to assign roles to created users.
+This small step was left as an exercise to keep sample code short.

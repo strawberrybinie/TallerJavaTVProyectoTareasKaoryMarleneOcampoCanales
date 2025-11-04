@@ -1,0 +1,16 @@
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\controller\AuthController.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\controller\TaskController.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\dto\AuthRequest.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\dto\AuthResponse.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\model\Role.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\model\Task.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\model\User.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\repository\RoleRepository.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\repository\TaskRepository.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\repository\UserRepository.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\security\JwtFilter.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\security\JwtUtil.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\security\SecurityConfig.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\security\UserDetailsServiceImpl.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\service\TaskService.java
+C:\Users\abyss\OneDrive\Documentos\proyectoFinalJavaTV\src\main\java\com\example\taskmanager\TaskManagerApplication.java
